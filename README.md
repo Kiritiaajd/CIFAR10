@@ -60,6 +60,21 @@ To run this project, you'll need the following Python libraries:
 - `numpy`
 - `PIL`
 
+
+
+Results
+After training the model, the CNN achieved an accuracy of around 90% on the CIFAR-10 test set. The model's performance was assessed using a confusion matrix and classification report, which provided insights into how well the model performed across different classes.
+
+Challenges Faced
+Overfitting: During the early stages of training, the model showed signs of overfitting. This was addressed by using data augmentation, dropout, and early stopping techniques.
+Computational Resources: Training deep neural networks on the CIFAR-10 dataset requires substantial computational power, especially for larger models. Using GPUs helped significantly reduce training time.
+Conclusion
+This project demonstrates the application of a Convolutional Neural Network (CNN) for image classification using the CIFAR-10 dataset. By following best practices in model building and evaluation, the project achieved good performance in classifying images into one of 10 categories.
+
+Future Work
+Model Improvements: Experiment with deeper architectures like ResNet or VGG to improve accuracy.
+Transfer Learning: Use pre-trained models and fine-tune them on the CIFAR-10 dataset to achieve better results.
+Data Augmentation: Increase the size and diversity of the training set through additional data augmentation techniques.
 You can install them via `pip`:
 
 ```bash
